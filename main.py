@@ -4,7 +4,7 @@ logo.print()
 def write_empty(file_name):
     with open(file_name + ".max", "w") as output_file:
         output_file.write("\n")
-
+print("asdawdasdawd")
 while (True):
     file_name = input("Podaj nazwę pliku: ")
     try:
