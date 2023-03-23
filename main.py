@@ -1,5 +1,5 @@
 import os
-# clear = lambda: os.system('cls')
+
 
 def write_empty(file_name):
     with open(file_name + ".max", "w") as output_file:
@@ -48,7 +48,7 @@ while (True):
 
     except FileNotFoundError:
         print(f"Plik '{file_name}' nie istnieje.")
-        # clear()
+        os.system('cls')
     except IOError:
         print(f"Wystąpił błąd wejścia-wyjścia podczas pracy z plikiem '{file_name}'.")
-        # clear()
+        os.system('cls')
