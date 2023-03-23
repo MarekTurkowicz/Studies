@@ -1,2 +1,3 @@
-def print():
+def pprint():
     print("działa")
+pprint()
