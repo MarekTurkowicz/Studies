@@ -1,6 +1,7 @@
 import os
 import logo
 logo.pprint()
+
 def write_empty(file_name):
     with open(file_name + ".max", "w") as output_file:
         output_file.write("\n")
